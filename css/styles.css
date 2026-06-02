@@ -36,6 +36,12 @@ main {
   user-select: none;
 }
 
+.stop.disabled {
+  background: #b2bec3;
+  box-shadow: 0 4px 0 #95a5a6;
+  cursor: default;
+}
+
 #spin {
   cursor: pointer;
   width: 280px;
@@ -48,4 +54,10 @@ main {
   color: #fff;
   user-select: none;
   margin: 0 auto;
+}
+
+#spin.disabled {
+  background: #b2bec3;
+  box-shadow: 0 4px 0 #95a5a6;
+  cursor: default;
 }
